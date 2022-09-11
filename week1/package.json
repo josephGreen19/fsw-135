@@ -1,18 +1,18 @@
 {
-  "name": "server-express-node",
+  "name": "week1",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "nodemon": "^2.0.1",
-    "uuid": "^3.3.3"
+    "express": "^4.18.1",
+    "mongoose": "^6.6.0",
+    "morgan": "^1.10.0"
   }
 }
