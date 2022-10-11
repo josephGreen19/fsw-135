@@ -1,7 +1,7 @@
-const mongoose = require("mongoose")
-const schema = mongoose.Schema
+const mongoose = require("mongoose");
+const schema = mongoose.Schema;
 
-const inventorySchema = new Schema({
+const InventorySchema = new schema({
     name: {
         type: String,
         required: true
@@ -15,6 +15,6 @@ const inventorySchema = new Schema({
         required: true,
         min: 1
     }
-})
+});
 
-module.exports = mongoose.model('inventory', inventorySchema)
+module.exports = mongoose.model('Inventory', InventorySchema);
