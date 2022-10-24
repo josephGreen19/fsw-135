@@ -46,7 +46,7 @@ inventoryRouter.post("/", (req, res, next) => {
     });
 
     // Put
-inventoryRouter.put("/InventoryId", (req, res, next) => {
+inventoryRouter.put("/:InventoryId", (req, res, next) => {
    Inventory.findOneAndUpdate(
     {_id: req.params.InventoryId},
     req.body,
